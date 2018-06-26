@@ -97,7 +97,7 @@ Ilustración 2. Vista de los menús para la selección de sedes y generaciones
 
 Una vez hechos los cambios pertinentes se paso a diseñar la interfaz con ayuda de una herramienta de diseño visual (Figma), como se puede apreciar a continuación:
 
-![Image Figma](/.img/Dashwork-laboratoria.png)
+![Image Figma](./img/Dashwork-laboratoria.png)
 
 
 
