@@ -4,7 +4,21 @@ window.getData = async () => {
   const promiseData = await fetch(url);
   laboratoria = await promiseData.json();
 }
-window.computeStudentsStats = () => {};
-window.computeGenerationsStats = () => {};
+
+window.computeGenerationsStats = (event) => {
+  console.log(event.target.innerHTML);
+  const generation = event.target.innerHTML;
+  const estudiantes = laboratoria[keySede].generacion[generation].estudantes;
+  console.log(estudiantes);
+
+  estudantes.forEach(estudiante => {
+    console.log(estudiante.nombre);
+  })
+};
+
+
+window.computeStudentsStats = () => {
+};
+
 window.sortStudents = () => {};
 window.filterStudents = () => {};
