@@ -22,6 +22,10 @@ header {
   background-color: #00c0ef !important;
 }
 
+#students-container {
+  display: none;
+}
+
 .dashboard-info {
   background-color: #b3b3b3;
   padding: 1em;
