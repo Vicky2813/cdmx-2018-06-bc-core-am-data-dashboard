@@ -103,6 +103,10 @@ Se realiazó un tercer sketch para definir como se mostrara el porcentaje genera
 
 ![sketch3](./img/sketch3.png)
 
+Luego de haber realizado el sketch 3 se procedió a realizar en Figma el diseño que se mostrará a continuación:
+
+![Image Figma2](./img/Dashwork2.png)
+
 
 
 ## Objetivos de aprendizaje
