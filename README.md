@@ -99,6 +99,10 @@ Una vez hechos los cambios pertinentes se paso a diseñar la interfaz con ayuda 
 
 ![Image Figma](./img/Dashwork-laboratoria.png)
 
+Se realiazó un tercer sketch para definir como se mostrara el porcentaje general de completitud de c/estudiante, con su respectivo nombre, correo y duración del programa.
+
+![sketch3](./img/sketch3.png)
+
 
 
 ## Objetivos de aprendizaje
