@@ -2,10 +2,10 @@
 let headquarters;
 
 //GENERACIONES
-let generaciones
+let generaciones;
 
 // SEDE INDEX
-let keySede
+let keySede;
 
 // SEDE LIMA
 const headquartersLima = document.getElementById('sede-lima');

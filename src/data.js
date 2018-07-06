@@ -1,6 +1,6 @@
 //ASEGURAR QUE AL CARGAR LA PAGINA TENGA LOS DATOS DE INICION
 document.addEventListener('DOMContentLoaded', ()=>{//DOMContentLoaded es un evento
-getData();
+  getData();
 },false)
 
 window.laboratoria = {};

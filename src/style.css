@@ -7,19 +7,8 @@ header {
   margin-bottom: 1em;
 }
 
-.fancy-red {
-  background-color: #f56954 !important;
-}
-.fancy-green {
-  background-color: #00a65a !important;
-}
-
-.fancy-blue {
-  background-color: #0073b7 !important;
-}
-
-.fancy-aqua {
-  background-color: #00c0ef !important;
+.nav-link {
+  color: #333333;
 }
 
 #students-container {
@@ -35,3 +24,115 @@ header {
   text-align: center;
   height: 100%;
 }
+
+footer {
+  margin-top: 550px;
+  background: #202020;
+  color: white;
+  padding: 1em;
+  display: inline-block;
+}
+
+.container-footer {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+}
+.col-sm1 {
+  margin-right: 200px;
+  display: inline-block;
+  max-width: 600px;
+}
+
+.col-sm1 h1 {
+  font-size: 22px;
+}
+
+.col-sm1 .row {
+  margin-top: 20px;
+  display: flex;
+}
+
+.row .i class {
+  width: 40px;
+  height: 40px;
+}
+
+.row label {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #C7C7C7;
+}
+
+.col-sm2 {
+  margin-left: 300px;
+  display: inline-block;
+  max-width: 600px;
+}
+
+.row2 {
+  margin-top: 20px;
+  display: flex;
+}
+
+.row2 label {
+  margin-top: 10px;
+  margin-left: 20px;
+  max-width: 200px;
+}
+
+.navbar-laboratoria{
+  color: rgba(0,0,0,.5);
+  border-color: rgba(0,0,0,.1)
+}
+
+.navbar-laboratoria i{
+  color: rgba(0,0,0,.5);
+  border-color: rgba(0,0,0,.1);
+  padding: .225rem .45rem 0;
+  font-size: 1.25rem;
+  line-height: 1;
+  border-radius: .25rem;
+}
+
+.generation {
+  text-decoration: none;
+  color: #333331;
+  border: 1px solid transparent;
+  background: #fec206;
+  border-radius: 5px;
+  width: 95px;
+  text-align: center;
+  font-size: 17px;
+  list-style: none;
+  padding: 3px 0 0;
+  margin: 0 0 10px;
+}
+
+#generations {
+  padding: 0;
+  margin: 0 0 60px;
+}
+
+@media screen and (max-width:
+  1100px){
+    .container-footer{
+      display: block;
+      flex-wrap: wrap;
+    }
+    .col-sm1 {
+      max-width: 100%;
+    }
+    .col-sm1,
+    .col-sm2{
+      margin-top: 60px;
+    }
+  }
+
+  .logo2 {
+    width: 200px;
+    border-radius: 7px;
+    padding-bottom: 80px;
+    margin-left: 200px;
+  }
