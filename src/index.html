@@ -6,12 +6,13 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
   <header>
     <nav class="navbar navbar-expand-lg bg-warning">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
         <img class="logo" src="../img/logo_laboratoria.png" alt="Laboratoria Logo" />
       </a>
       <button class="navbar-toggler navbar-laboratoria" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
@@ -21,67 +22,64 @@
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link nav-titles" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sedes</a>
+            <a class="nav-link dropdown-toggle nav-titles" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sedes</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a id="sede-lima" class="dropdown-item" href="#">Lima (Perú)</a>
-              <a id="sede-cdmx" class="dropdown-item" href="#">CDMX (México)</a>
-              <a id="sede-scl" class="dropdown-item" href="#">Santiago (Chile)</a>
+              <a id="sede-lima" class="dropdown-item nav-titles" href="#">Lima (Perú)</a>
+              <a id="sede-cdmx" class="dropdown-item nav-titles" href="#">CDMX (México)</a>
+              <a id="sede-scl" class="dropdown-item nav-titles" href="#">Santiago (Chile)</a>
             </div>
           </li>
-    </ul>
-    <form class="form-inline">
-      <input class="form-control mr-sm-2" type="search" placeholder="Buscar Estudiante" aria-label="Search">
-      <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Buscar</button>
-    </form>
-  </div>
-</nav>
-</header>
-<section class="container">
-  <div class="row">
-    <div class="col-sm">
-      <h2 id="sede"></h2>
-      <ul id="generations"></ul>
+        </ul>
+        <!-- <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar Estudiante" aria-label="Search">
+          <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Buscar</button>
+        </form> -->
+      </div>
+    </nav>
+  </header>
+  <img id="background-laboratoria" class="img-fluid fondo" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/aa997762847359.5a9dccd3dc789.gif" alt="Fondo Laboratoria" />
+  <section class="container">
+    <div class="row">
+      <div class="col-sm">
+        <h1 id="sede" class="text-center"></h1>
+        <hr/>
+        <ul id="generations"></ul>
+      </div>
     </div>
-    <div id="students-container" class="col-sm">
-      <h2>Estudiantes</h2>
-      <ul class="list-group" id="students"></ul>
+    <div class="row">
+      <div class="col-sm">
+        <div id="students-container" class="col-sm">
+          <h2>Estudiantes</h2>
+          <div id="table-students" class="table-responsive-sm d-print-md-down">
+            <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">#</th>
+                  <td scope="col">Nombre</td>
+                  <td scope="col">Correo</td>
+                  <td scope="col">Campus</td>
+                  <td scope="col">Generación</td>
+                  <td scope="col">Duración</td>
+                  <td scope="col">Completitud</td>
+                </tr>
+              </thead>
+              <tbody id="data-students">
+              </tbody>
+            </table>
+          </div>
+          <ul class="list-group d-print-md-up" id="students"></ul>
+        </div>
+      </div>
     </div>
   </section>
-  <!--  <footer class="footer">
-  <div class="container">
-  <span>Hola</span>
-</div>
-</footer> -->
-<footer>
-  <div class="container-footer">
-    <div class="col-sm1">
-      <img class="logo2" src="../img/logo_laboratoria.png" alt="Laboratoria Logo" />
-      <p>Trabajamos para ser la principal fuente de talento tech femenino de América Latina para el mundo,
-        transformando el futuro de miles de mujeres y las empresas que las reciben.</p>
-      </div>
-      <div class="col-sm2">
-        <h1>Redes Sociales</h1>
-        <div class="row2">
-          <label > <i class="fab fa-facebook-square"></i> Facebook</label>
-        </div>
-        <div class="row2">
-          <label ><i class="fab fa-twitter-square"></i> Twitter</label>
-        </div>
-        <div class="row2">
-          <label><i class="far fa-eye"></i>
-            <a href="http://www.laboratoria.la/" target="_blank"> http://www.laboratoria.la/</label>
-            </div>
-          </div>
-        </div>
-      </footer>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
-      <script src="main.js"></script>
-      <script src="data.js"></script>
-    </body>
-    </html>
+  <script src="main.js"></script>
+  <script src="data.js"></script>
+</body>
+</html>

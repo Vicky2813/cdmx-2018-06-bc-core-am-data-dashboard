@@ -1,3 +1,50 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
+/* MEDIA QUERIES*/
+
+@media (max-width: 767.98px) {
+  #table-students {
+    display: none !important;
+  }
+
+  #students {
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #table-students {
+    display: block !important;
+  }
+
+  #students {
+    display: none !important;
+  }
+}
+
+.nav-titles {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.laboratoria-button {
+  width: 148px;
+  height: 47px;
+  z-index: 71;
+  line-height: 19px;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: Open Sans;
+  border-radius: 2px;
+  background-color: #ffe521;
+  color: #000000;
+}
+
+body {
+  font-family: 'Bitter', serif !important;
+}
+
 .logo {
   width: 128px;
   border-radius: 7px;
@@ -25,63 +72,6 @@ header {
   height: 100%;
 }
 
-footer {
-  margin-top: 550px;
-  background: #202020;
-  color: white;
-  padding: 1em;
-  display: inline-block;
-}
-
-.container-footer {
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  justify-content: space-between;
-}
-.col-sm1 {
-  margin-right: 200px;
-  display: inline-block;
-  max-width: 600px;
-}
-
-.col-sm1 h1 {
-  font-size: 22px;
-}
-
-.col-sm1 .row {
-  margin-top: 20px;
-  display: flex;
-}
-
-.row .i class {
-  width: 40px;
-  height: 40px;
-}
-
-.row label {
-  margin-top: 10px;
-  margin-left: 20px;
-  color: #C7C7C7;
-}
-
-.col-sm2 {
-  margin-left: 300px;
-  display: inline-block;
-  max-width: 600px;
-}
-
-.row2 {
-  margin-top: 20px;
-  display: flex;
-}
-
-.row2 label {
-  margin-top: 10px;
-  margin-left: 20px;
-  max-width: 200px;
-}
-
 .navbar-laboratoria{
   color: rgba(0,0,0,.5);
   border-color: rgba(0,0,0,.1)
@@ -97,17 +87,19 @@ footer {
 }
 
 .generation {
-  text-decoration: none;
-  color: #333331;
-  border: 1px solid transparent;
-  background: #fec206;
-  border-radius: 5px;
-  width: 95px;
+  cursor: pointer;
   text-align: center;
-  font-size: 17px;
+  width: 148px;
+  height: 47px;
+  z-index: 71;
+  line-height: 19px;
+  font-weight: bold;
+  border-radius: 2px;
+  background-color: #ffe521;
+  color: #000000;
+  margin: 1em;
+  padding: 1em;
   list-style: none;
-  padding: 3px 0 0;
-  margin: 0 0 10px;
 }
 
 #generations {
@@ -115,24 +107,8 @@ footer {
   margin: 0 0 60px;
 }
 
-@media screen and (max-width:
-  1100px){
-    .container-footer{
-      display: block;
-      flex-wrap: wrap;
-    }
-    .col-sm1 {
-      max-width: 100%;
-    }
-    .col-sm1,
-    .col-sm2{
-      margin-top: 60px;
-    }
-  }
-
-  .logo2 {
-    width: 200px;
-    border-radius: 7px;
-    padding-bottom: 80px;
-    margin-left: 200px;
-  }
+.fondo {
+  border-radius: 7px;
+  display: block;
+  margin: 0 auto;
+}
