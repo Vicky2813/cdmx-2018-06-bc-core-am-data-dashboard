@@ -107,6 +107,20 @@ Luego de haber realizado el sketch 3 se procedió a realizar en Figma el diseño
 
 ![Image Figma2](./img/Dashwork2.png)
 
+A continuación se muestra el sketch final a lapiz y papel de la interfaz que se mostrara para dispositivos como tablets y desktops:
+
+![sketch-final](./img/sketch-pc.jpg)
+
+A continuación se muestra el sketch final a lapiz y papel de la interfaz que se mostrara para dispositivos moviles:
+
+![sketch-final](./img/sketch-phone.jpg)
+
+Luego de haber realizado los respectivos sketching finales a lapiz y papel se procedió a realizar en Figma el diseño final de la interfaz que se mostrará a continuación:
+
+![Image Figma-final](./img/skeatch-PC.png)
+
+![Image Figma-final2](./img/skeatch-iPhone.png)
+
 
 
 ## Objetivos de aprendizaje
