@@ -87,6 +87,7 @@ La creación de esta interfaz pretende resolver la consulta de la información, 
 Una vez que se definieron las nececidades de nuestro producto comenzamos con un diagrama de flujo, donde se plasmaron las principales tareas a realizar para el funcionamiento del producto solicitado, como se muestra a continuación:
 
 ![Diagrama de Flujo](./img/diagramadeflujo.png)
+
 Como siguiente paso se realizo un sketch a lapiz y papel donde se plasma a grandes rasgos la interfaz con los elementos que ayudaran con la interacción de la misma, el cuál se mostro a nuestro cliente para su aprovación.
 
 ![sketch1](./img/Sketch1.png)
