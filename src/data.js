@@ -35,7 +35,7 @@ window.computeStudentsStats = () => {
   estudiantes.forEach((estudiante, index) => {
     // PARA CREAR LA LISTA
     const liStudent = document.createElement('li');
-    liStudent.innerHTML = `${index + 1} - ${estudiante.nombre} <i class="fas fa-at"></i> ${estudiante.correo}`;
+    liStudent.innerHTML = `${index + 1} - ${estudiante.nombre} </br> <i class="fas fa-percent"> de completitud: </i>  ${estudiante.progreso.porcentajeCompletado}`;
     liStudent.className = 'list-group-item';
     ulStudents.appendChild(liStudent);
 
